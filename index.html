@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>衛星モニタリングMiteMiru シリーズ</title>
+    <meta
+      name="description"
+      content="最先端のIoT技術と衛星データを活用した次世代環境モニタリングシステム"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="nav">
+          <img class="logo" src="MiteMiru_Logo.png" alt="MiteMirulogo" />
+          <nav class="nav-menu">
+            <a href="#services">サービス</a>
+            <a href="#features">特徴</a>
+            <a href="#about">会社概要</a>
+            <a href="#contact">お問い合わせ</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">衛星から地球をはかる</h1>
+        <p class="hero-description">
+          光学衛星及びSAR衛星を活用し、地球の変化をモニタリングする<br />
+          次世代モニタリングサービスMiteMiru（ミテミル）
+        </p>
+        <div class="hero-buttons">
+          <a href="#services" class="btn btn-primary">サービスを見る</a>
+          <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2>サービス</h2>
+          <p>環境監視の課題を解決する4つのソリューション</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-image">
+              <img src="MiteMiru_Shinrin.png" alt="MiteMiru森林" />
+              <div class="service-tags">
+                <span class="tag">光学衛星</span>
+                <span class="tag">地理院地図レイヤー</span>
+              </div>
+              <span class="status active">運用中</span>
+            </div>
+            <div class="service-content">
+              <h3>MiteMiru森林</h3>
+              <p>
+                衛星データとIoTセンサーによる森林環境の総合モニタリングシステム
+              </p>
+              <ul class="features">
+                <li>森林変化の自動検出</li>
+                <li>温湿度・土壌水分監視</li>
+                <li>CO2濃度リアルタイム測定</li>
+                <li>森林火災早期検知</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-image">
+              <img src="MiteMiru_Morido.png" alt="MiteMiru盛土" />
+              <div class="service-tags">
+                <span class="tag">光学衛星</span>
+                <span class="tag">地理院地図レイヤー</span>
+                <span class="tag">Google APIレイヤー</span>
+              </div>
+              <span class="status active">運用中</span>
+            </div>
+            <div class="service-content">
+              <h3>MiteMiru盛土</h3>
+              <p>衛星SAR解析による盛土の変位監視と安全性評価システム</p>
+              <ul class="features">
+                <li>SAR衛星による変位検出</li>
+                <li>地盤沈下・水位監視</li>
+                <li>異常検知アラート</li>
+                <li>安全性評価レポート</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-image">
+              <img src="MiteMiru_Saigai.jpg" alt="MiteMiru災害" />
+              <div class="service-tags">
+                <span class="tag">光学衛星</span>
+                <span class="tag">SAR衛星</span>
+                <span class="tag">地理院地図レイヤー</span>
+              </div>
+              <span class="status active">運用中</span>
+            </div>
+            <div class="service-content">
+              <h3>MiteMiru災害</h3>
+              <p>災害リスク監視と早期警戒システム</p>
+              <ul class="features">
+                <li>災害リスク評価</li>
+                <li>早期警戒システム</li>
+                <li>避難計画支援</li>
+                <li>被害予測分析</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div class="service-image">
+              <img src="MiteMiru_Infra.jpg" alt="MiteMiruインフラ" />
+              <div class="service-tags">
+                <span class="tag">SAR衛星</span>
+                <span class="tag">地理院地図レイヤー</span>
+              </div>
+              <span class="status upcoming">開発中</span>
+            </div>
+            <div class="service-content">
+              <h3>MiteMiruインフラ</h3>
+              <p>インフラ設備の予防保全と健全性診断システム</p>
+              <ul class="features">
+                <li>構造物健全性診断</li>
+                <li>振動・応力監視</li>
+                <li>予防保全計画</li>
+                <li>ライフサイクル管理</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>特徴</h2>
+          <p>MiteMiruが選ばれる理由</p>
+        </div>
+        
+        <!-- シーズ（技術的特徴） -->
+        <div class="mb-16">
+          <div class="text-center mb-8">
+            <h3 class="text-2xl md:text-3xl font-bold text-blue-600 mb-4">
+              シーズ（技術的特徴）
+            </h3>
+          </div>
+          
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">🛰️</div>
+              <h3>衛星データ活用</h3>
+              <p>
+                最新の衛星技術を活用し、広範囲の環境変化を高精度で監視・分析します。
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">☁️</div>
+              <h3>クラウド閲覧</h3>
+              <p>
+                セキュアなクラウド環境で、いつでもどこでもデータにアクセス・閲覧できます。
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">🧠</div>
+              <h3>2時期AI変化抽出</h3>
+              <p>
+                AI技術により、異なる時期の衛星画像を比較し、変化を自動抽出・分析します。
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- ニーズ（業務的特徴） -->
+        <div>
+          <div class="text-center mb-8">
+            <h3 class="text-2xl md:text-3xl font-bold text-green-600 mb-4">
+              ニーズ（業務的特徴）
+            </h3>
+          </div>
+          
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">⚙️</div>
+              <h3>実際の業務フローに沿った設計</h3>
+              <p>
+                現場の業務プロセスを理解し、実際の運用に即したシステム設計を提供します。
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">📊</div>
+              <h3>専門家による閾値設定</h3>
+              <p>
+                豊富な経験を持つ専門家が、最適な監視閾値を設定し、精度の高い異常検知を実現します。
+              </p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">📱</div>
+              <h3>全庁利用のライセンス</h3>
+              <p>
+                組織全体での利用を前提としたライセンス体系で、部署を超えた情報共有が可能です。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MiteMiru Infrastructure Detail Section -->
+    <section id="infra-detail" class="infra-detail">
+      <div class="container">
+        <div class="section-header">
+          <h2>MiteMiruインフラ</h2>
+          <p>
+            衛星データとAI技術を活用したインフラ設備の予防保全と健全性診断システム
+          </p>
+
+          <div class="infra-hero-image">
+            <img
+              src="mitemiru-infra-section.png"
+              alt="予防保全・インフラ診断"
+            />
+            <span class="status upcoming_Infra">開発中</span>
+          </div>
+        </div>
+        
+        <!-- 解決する課題 -->
+        <div class="container">
+          <div class="section-header">
+            <h2>解決する課題</h2>
+          </div>
+          
+          <!-- MiteMiruインフラで解決する課題 -->
+          <div class="mb-16">
+            <h4 class="text-2xl font-bold text-blue-600 mb-8 text-center">
+              MiteMiruインフラで解決
+            </h4>
+            <div class="challenges-grid-mitemiru">
+              <div class="challenge-card-blue">
+                <div class="challenge-icon">⚠️</div>
+                <h4>点検業務における過去と現在の比較ができない</h4>
+                <p>従来の点検では時系列での変化を把握することが困難</p>
+                <div class="challenge-stat-blue">MiteMiruインフラで解決</div>
+              </div>
+              <div class="challenge-card-blue">
+                <div class="challenge-icon">⏰</div>
+                <h4>広域現地調査の限界</h4>
+                <p>広範囲のインフラを効率的に調査することが困難</p>
+                <div class="challenge-stat-blue">MiteMiruインフラで解決</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- コンサルティングサービスで解決する課題 -->
+          <div>
+            <h4 class="text-2xl font-bold text-green-600 mb-8 text-center">
+              コンサルティングサービスで解決
+            </h4>
+            <div class="challenges-grid-consulting">
+              <div class="challenge-card-green">
+                <div class="challenge-icon">📈</div>
+                <h4>広域で抽出した変化を詳細調査が必要</h4>
+                <p>衛星データで発見した変化箇所の現地確認と詳細分析</p>
+                <div class="challenge-stat-green">コンサルティングサービスで解決</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- 用途・適用分野 -->
+        <div class="container" style="margin-top: 96px;">
+          <div class="section-header">
+            <h2>用途・適用分野</h2>
+            <p>様々なインフラ分野で活用できる総合的なソリューション</p>
+          </div>
+          <div class="applications-grid">
+            <div class="application-card">
+              <div class="application-header">
+                <div class="application-icon">🏗️</div>
+                <div class="application-info">
+                  <h4>橋梁・高架橋</h4>
+                  <p>
+                    コンクリートのひび割れ、鉄筋の腐食、支承部の劣化を高精度で検出
+                  </p>
+                </div>
+              </div>
+              <ul class="application-features">
+                <li>ひび割れ自動検出</li>
+                <li>鉄筋腐食診断</li>
+                <li>支承部点検</li>
+                <li>耐震性評価</li>
+              </ul>
+            </div>
+            <div class="application-card">
+              <div class="application-header">
+                <div class="application-icon">🛣️</div>
+                <div class="application-info">
+                  <h4>道路・舗装</h4>
+                  <p>舗装の劣化状況、路面の変状を効率的に調査・評価</p>
+                </div>
+              </div>
+              <ul class="application-features">
+                <li>舗装劣化診断</li>
+                <li>わだち掘れ測定</li>
+                <li>平坦性評価</li>
+                <li>すべり抵抗測定</li>
+              </ul>
+            </div>
+            <div class="application-card">
+              <div class="application-header">
+                <div class="application-icon">⚡</div>
+                <div class="application-info">
+                  <h4>電力設備</h4>
+                  <p>送電線、鉄塔、変電設備の健全性を遠隔で監視・診断</p>
+                </div>
+              </div>
+              <ul class="application-features">
+                <li>送電線点検</li>
+                <li>鉄塔腐食診断</li>
+                <li>絶縁体検査</li>
+                <li>植生管理</li>
+              </ul>
+            </div>
+            <div class="application-card">
+              <div class="application-header">
+                <div class="application-icon">🌊</div>
+                <div class="application-info">
+                  <h4>河川・ダム</h4>
+                  <p>河川構造物、ダム堤体の変状を継続的にモニタリング</p>
+                </div>
+              </div>
+              <ul class="application-features">
+                <li>堤防変状監視</li>
+                <li>ダム変位測定</li>
+                <li>護岸劣化診断</li>
+                <li>水位監視</li>
+              </ul>
+            </div>
+          </div>
+          <div class="section-cta">
+            <a href="#contact" class="btn btn-primary"
+              >詳細資料をダウンロード</a
+            >
+          </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>衛星×インフラコンサルティング</h2>
+            <p class="about-subtitle">社会インフラの安全・安心を支える技術力</p>
+            <p>
+              MiteMiruは、衛星データとIoT技術を活用したインフラ管理・環境監視のコンサルティングサービスを提供しています。道路、橋梁、トンネル、河川、森林など、社会インフラの維持管理から災害対策まで、幅広い分野で専門的なソリューションを展開しています。
+            </p>
+            <p>
+              衛星リモートセンシング技術と現地調査を組み合わせた総合的なアプローチにより、効率的で精度の高いインフラ診断・予防保全計画の策定をサポートし、安全で持続可能な社会基盤の構築に貢献します。
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">インフラ診断実績</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">サポート体制</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">自治体・企業</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-images">
+            <div class="image-grid">
+              <img src="mms.jpg" alt="MMS技術" />
+              <img src="bridge.jpg" alt="橋梁点検" />
+              <img src="infra-eye.jpg" alt="インフラアイ" />
+              <img src="water-system.jpg" alt="上下水道" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+      <div class="container">
+        <div class="section-header">
+          <h2>体験版</h2>
+          <p>MiteMiruの機能を実際に体験してみませんか？</p>
+        </div>
+        <div class="demo-content">
+          <div class="demo-video">
+            <div class="video-placeholder">
+              <div class="play-button">▶️</div>
+              <img
+                src="https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="MiteMiru体験版"
+              />
+            </div>
+          </div>
+          <div class="demo-info">
+            <h3>無料で体験できます</h3>
+            <p>
+              実際のデータを使用したデモ環境で、MiteMiruの機能を体験いただけます。登録不要で、すぐにお試しいただけます。
+            </p>
+            <div class="demo-features">
+              <div class="demo-feature">
+                <div class="demo-feature-icon">🖥️</div>
+                <div class="demo-feature-info">
+                  <h4>デスクトップ版</h4>
+                  <p>高解像度画面で詳細な分析が可能</p>
+                </div>
+              </div>
+              <div class="demo-feature">
+                <div class="demo-feature-icon">📱</div>
+                <div class="demo-feature-info">
+                  <h4>モバイル版</h4>
+                  <p>外出先でもリアルタイム監視</p>
+                </div>
+              </div>
+              <div class="demo-feature">
+                <div class="demo-feature-icon">🌐</div>
+                <div class="demo-feature-info">
+                  <h4>ウェブ版</h4>
+                  <p>ブラウザから簡単アクセス</p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-primary">体験版を開始</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>お問い合わせ</h2>
+          <p>MiteMiruに関するご質問・ご相談は、お気軽にお問い合わせください</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <h3>お電話でのお問い合わせ</h3>
+                <p class="contact-value">03-1234-5678</p>
+                <p class="contact-sub">平日 9:00-18:00</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <h3>メールでのお問い合わせ</h3>
+                <p class="contact-value">info@mitemiru.com</p>
+                <p class="contact-sub">24時間受付</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <h3>所在地</h3>
+                <p class="contact-value">東京都目黒区下目黒1-7-1</p>
+                <p class="contact-sub">パスコ目黒さくらビル</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>お名前 <span class="required">*</span></label>
+                  <input type="text" required placeholder="山田太郎" />
+                </div>
+                <div class="form-group">
+                  <label>会社名・団体名</label>
+                  <input type="text" placeholder="株式会社○○" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>メールアドレス <span class="required">*</span></label>
+                  <input
+                    type="email"
+                    required
+                    placeholder="example@company.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>電話番号</label>
+                  <input type="tel" placeholder="03-1234-5678" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>お問い合わせ内容</label>
+                <select>
+                  <option value="">選択してください</option>
+                  <option value="forest">MiteMiru森林</option>
+                  <option value="embankment">MiteMiru盛土</option>
+                  <option value="infrastructure">MiteMiruインフラ</option>
+                  <option value="disaster">MiteMiru災害</option>
+                  <option value="other">その他・相談</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>メッセージ <span class="required">*</span></label>
+                <textarea
+                  required
+                  rows="6"
+                  placeholder="お問い合わせ内容をご記入ください"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                送信する
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <img class="logo" src="MiteMiru_Logo.png" alt="MiteMirulogo" />
+            <p>環境モニタリングソリューション</p>
+            <p class="footer-note">
+              最先端の技術で持続可能な社会の実現を目指します。
+            </p>
+          </div>
+          <div class="footer-section">
+            <h4>サービス</h4>
+            <ul>
+              <li><a href="#">MiteMiru森林</a></li>
+              <li><a href="#">MiteMiru盛土</a></li>
+              <li><a href="#">MiteMiruインフラ</a></li>
+              <li><a href="#">MiteMiru災害</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>企業情報</h4>
+            <ul>
+              <li><a href="#about">会社概要</a></li>
+              <li><a href="#">ニュース</a></li>
+              <li><a href="#">採用情報</a></li>
+              <li><a href="#">プライバシーポリシー</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>サポート</h4>
+            <ul>
+              <li><a href="#contact">お問い合わせ</a></li>
+              <li><a href="#">技術サポート</a></li>
+              <li><a href="#">よくある質問</a></li>
+              <li><a href="#">ドキュメント</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 MiteMiru. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
